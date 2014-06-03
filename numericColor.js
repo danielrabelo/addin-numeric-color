@@ -6,7 +6,8 @@
     	decimal: true,
 		textFormat: function(v, st, opt, objectHtml) {		
 			var value= v;
-		    
+	
+	    /** Condition for coloring **/	    
             if (value < 500) {
               $(objectHtml).css({'background-color':'red'});
         	  return "<span style='text-align:right;'>"+value+"</span>";  
@@ -20,7 +21,7 @@
               return "<span style='text-align:right;'>"+value+"</span>";                 
             }
 		
-		}
+	}
     },
     init: function(){
       $.fn.dataTableExt.oSort[this.name+'-asc'] = $.fn.dataTableExt.oSort['numeric-asc'];
