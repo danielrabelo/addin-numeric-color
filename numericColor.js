@@ -5,7 +5,8 @@
     defaults: {
     	decimal: true,
 		textFormat: function(v, st, opt, objectHtml) {		
-			var value= v;
+	
+	    var value= v;
 	
 	    /** Condition for coloring **/	    
             if (value < 500) {
