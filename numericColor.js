@@ -10,17 +10,13 @@
 	    /** Condition for coloring **/	    
             if (value < 500) {
               $(objectHtml).css({'background-color':'red'});
-        	  return "<span style='text-align:right;'>"+value+"</span>";  
-              
             } else if (value < 1000){
               $(objectHtml).css({'background-color':'blue'});
-              return "<span style='text-align:right;'>"+value+"</span>"; 
-              
             } else {
               $(objectHtml).css({'background-color':'green'});
-              return "<span style='text-align:right;'>"+value+"</span>";                 
             }
 		
+	    return "<span style='text-align:right;'>"+value+"</span>";	
 	}
     },
     init: function(){
