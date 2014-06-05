@@ -4,7 +4,7 @@ addin-numeric-color
 AddIn created to color the cells of the columns, for CTools DataTable components
 
 ##Screen
-<img src="https://raw.githubusercontent.com/danielrabelo/addin-numeric-color/master/images/table-component-ctools.png" alt="Example of color table component" title="Table Bootstrap Component" align="center" height="400"/>
+<img src="https://raw.githubusercontent.com/danielrabelo/addin-numeric-color/master/images/table-component-ctools.png" alt="Example of color table component" title="Table Bootstrap Component" align="center" height="300"/>
 
 ##Coloring the cells of a Table Component Ctools
 
